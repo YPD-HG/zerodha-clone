@@ -6,18 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone (Zerodha)</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <nav class="navbar">
-        Navigation
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="/">
+                    <img class="logo-img" src="/assets/icons/logo.svg" alt="Zerodha logo">
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul class="navbar-links">
+                    <li class="hide-on-small">
+                        <a href="https://zerodha.com/open-account/">Signup</a>
+                    </li>
+                    <li class="hide-on-small">
+                        <a class="nav-links" href="https://zerodha.com/about/">About</a>
+                    </li>
+                    <li class="hide-on-small">
+                        <a class="nav-links" href="https://zerodha.com/products/">Products</a>
+                    </li>
+                    <li class="hide-on-small">
+                        <a class="nav-links" href="https://zerodha.com/pricing/">Pricing</a>
+                    </li>
+                    <li class="hide-on-small">
+                        <a href="https://support.zerodha.com">Support</a>
+                    </li>
+                    <!-- NavMenu -->
+                    <input type="checkbox" id="close-banner" class="hide-checkbox">
+                    <label for="close-banner" class="close">
+                    <li id="navbar_menu">
+                        <div id="nav-icon3">
+                            <span class="nav-icon-line"></span>
+                            <span class="nav-icon-line"></span>
+                            <span class="nav-icon-line"></span>
+                        </div>
+                    </li>
+                </label>
+
+                </ul>
+            </div>
+        </div>
     </nav>
     <main class="content">
         <div class="homepage">
             Home Page
             <section class="landing">
                 Invest in everything
-
             </section>
             <section class="ecosystem">
                 Trust with confidence
