@@ -106,7 +106,6 @@ body {
 }
 
 /* Home - Page */
-.content {}
 
 /* Landing - Page */
 .landing {
@@ -117,9 +116,6 @@ body {
     height: auto;
     margin: auto;
     margin-top: 81.200px;
-    /* margin-top: 3.075em;
-    margin-left: 10.125em;
-    margin-right: 10.125em; */
 }
 
 .landing-heading {
@@ -128,9 +124,9 @@ body {
 }
 
 .landing-image {
-    /* width: 790.2px;
-    height: 332.55px; */
+    min-height: 67.500;
     max-width: 100%;
     height: auto;
     margin-bottom: 60px;
 }
+
