@@ -2,8 +2,6 @@ a {
     text-decoration: none;
 }
 
-body {}
-
 h1 {
     font-size: 2.69rem;
     line-height: 1.25;
@@ -41,9 +39,15 @@ h1 {
 }
 
 .hide-on-small {
+    font-family: "Inter", serif;
+    color: #424242;
+    font-weight: normal;
     float: left;
     padding: 1.25rem;
-    /* 20px */
+    font-size: 14.4px;
+    font-weight: 400;
+    font-stretch: 100%;
+    line-height: 24.48px;
 }
 
 .nav-container {
@@ -144,7 +148,6 @@ h1 {
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-    text-size-adjust: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
