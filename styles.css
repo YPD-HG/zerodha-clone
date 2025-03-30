@@ -110,6 +110,18 @@ h1 {
 /* Home - Page */
 
 /* Landing - Page */
+button {
+    background-color: rgb(56, 126, 209);
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    font-size: 1.2em;
+    font-family: "Inter", serif;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-top: 25px;
+}
+
 .landing {
     display: flex;
     align-items: center;
