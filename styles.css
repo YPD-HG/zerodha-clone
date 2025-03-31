@@ -2,9 +2,15 @@ a {
     text-decoration: none;
 }
 
-h1 {}
+h1 {
+    font-family: "Inter", serif;
+    color: #424242;
+}
 
-h2 {}
+h2 {
+    font-family: "Inter", serif;
+    color: #424242;
+}
 
 h3 {
     font-family: "Inter", serif;
@@ -203,11 +209,11 @@ button {
     padding: 0px 20px 120px;
 }
 
-.ecosystem a {
+.ecosystem .container a {
     color: #387ed1;
 }
 
-.ecosystem a:hover {
+.ecosystem .container a:hover {
     color: #444444;
 }
 
@@ -257,10 +263,6 @@ button {
     margin-bottom: 0;
 }
 
-/* .row-in-middle{
-    width: 44px;
-    height: 680px;
-} */
 .ecosystem p {
     font-size: 16px;
     line-height: 28.8px;
@@ -302,3 +304,9 @@ button {
 .press-strip {
     margin-top: 60px;
 }
+
+.press-strip img:hover {
+    opacity: .8;
+}
+
+/* Pricing */
