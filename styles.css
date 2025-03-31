@@ -315,7 +315,7 @@ button {
 }
 
 /* Pricing */
-.pricing{
+.pricing {
     padding-bottom: 120px;
     padding-left: 20px;
     padding-right: 20px;
@@ -343,8 +343,7 @@ button {
     align-items: start;
     flex-direction: column;
     width: auto;
-    height: 677.562px;
-    padding: 0px 20px 120px;
+    padding: 0px 20px 120px 0px;
 }
 
 .pricing-col .five h2 {
@@ -359,15 +358,15 @@ button {
     font-family: "Inter", serif;
     color: #424242;
     font-size: 16px;
-    line-height: 28.8px;
+    font-size: 16px;
     font-weight: 400;
     font-stretch: normal;
+    font-stretch: 100%;
+    line-height: 28.8px;
     text-indent: 0px;
     vertical-align: baseline;
-    font-stretch: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
-
 }
 
 .pricing-col .five .pricing-link {
@@ -447,42 +446,151 @@ button {
     left: 0px;
 }
 
-/* 
+/* **** Free Education **** */
+.varsity .container {
+    -webkit-font-smoothing: antialiased;
 
-.pricing .container .pricing-col .seven .pricing-box p {
-    display: inline-block;
-    position: relative;
-    top: 30px;
-    left: -68px;
-    -webkit-font-smoothing: antialiased;
-}
-/* 
-.pricing .container .pricing-col .seven .pricing-box:nth-child(2) {
-    position: relative;
-    box-sizing: content-box;
-    width: auto;
-    top: 30px;
-    left: -68px;
-    -webkit-font-smoothing: antialiased;
-}
-*/
-/* 
-.pricing .container .pricing-col .seven .pricing-box:nth-child(2) p {
-    position: relative;
-    box-sizing: content-box;
-    top: 30px;
-    left: -68px;
-    -webkit-font-smoothing: antialiased;
+    /* display: flex; */
+    /* width: 1100px;
+    height: 374.359px; */
 }
 
-.pricing .container .pricing-col .seven .pricing-box:nth-child(3) p {
+.varsity-col {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 150px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.varsity-image img {
     position: relative;
-    top: 30px;
-    left: 0px;
+    left: 20px;
+    bottom: 20px;
+    width: 425px;
+    height: 310px;
+}
+
+.varsity-col .varsity-content {
+    position: relative;
+    font-family: "Inter", serif;
+    color: #424242;
+    margin: 90px;
+    width: 513px;
+    height: 285px;
+    bottom: 25px;
+    left: 65px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.varsity-col .varsity-content h2 {
+    color: #424242;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 0px 20px;
+    border-right: 10px;
+    font-weight: 500;
+    flex-shrink: 100%;
     -webkit-font-smoothing: antialiased;
 }
 
-.pricing .container .pricing-col .seven .pricing-box:nth-child(3) img {
-    position: relative;
-    left: 0px;
+.varsity-col .varsity-content p {
+    font-family: "Inter", serif;
+    color: #424242;
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-stretch: 100%;
+    line-height: 28.8px;
+    text-indent: 0px;
+    vertical-align: baseline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.varsity-col .varsity-content a {
+    font-family: "Inter", serif;
+    color: #387ed1;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.varsity-col .varsity-content a i {
+    padding-left: 5px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.varsity-col .varsity-content a:hover {
+    font-family: "Inter", serif;
+    color: #444444;
+}
+
+.varsity-col .varsity-content a .fa-arrow-right:hover {
+    color: #444444;
+}
+
+.varsity-col .varsity-content .para-first {
+    margin: 16px 0px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.varsity-col .varsity-content .space-top {
+    margin: 30px 0px 15px;
+}
+
+/* .varsity{
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+.varsity .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    -webkit-font-smoothing: antialiased;
+
+}
+.varsity-col{
+    display: flex;
+    justify-content: space-between;
+}
+.varsity .columns h2 {
+    color: #424242;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 0px 20px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+
+}
+.varsity-col .columns p {
+    font-family: "Inter", serif;
+    color: #424242;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-weight: 400;
+    font-stretch: normal;
+    text-indent: 0px;
+    vertical-align: baseline;
+    font-stretch: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.varsity-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    height: 140.59px;
+    -webkit-font-smoothing: antialiased;
+
 } */
