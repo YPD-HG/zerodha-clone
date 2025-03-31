@@ -545,52 +545,35 @@ button {
     margin: 30px 0px 15px;
 }
 
-/* .varsity{
-    padding-bottom: 120px;
-    padding-left: 20px;
-    padding-right: 20px;
-    -webkit-font-smoothing: antialiased;
+/* Open Account Section */
+.kite-sections {
+    box-shadow: rgb(238, 238, 238) 0.125rem 0.0625rem 0.125rem 0px;
 }
-.varsity .container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 150px;
-    -webkit-font-smoothing: antialiased;
 
+.kite-sections .mini-container {
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
-.varsity-col{
-    display: flex;
-    justify-content: space-between;
-}
-.varsity .columns h2 {
+
+.kite-sections .mini-container h2 {
     color: #424242;
     font-size: 32px;
     line-height: 48px;
     margin: 0px 0px 20px;
+    border-right: 10px;
     font-weight: 500;
+    flex-shrink: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.kite-sections .mini-container .text-gray {
+    color: RGB(102, 102, 102);
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 0px 20px;
+    border-right: 10px;
+    font-weight: 500;
+    flex-shrink: 100%;
     -webkit-font-smoothing: antialiased;
 
 }
-.varsity-col .columns p {
-    font-family: "Inter", serif;
-    color: #424242;
-    font-size: 16px;
-    line-height: 28.8px;
-    font-weight: 400;
-    font-stretch: normal;
-    text-indent: 0px;
-    vertical-align: baseline;
-    font-stretch: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-}
-.varsity-col {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1100px;
-    height: 140.59px;
-    -webkit-font-smoothing: antialiased;
-
-} */
