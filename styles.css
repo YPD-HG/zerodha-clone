@@ -2,9 +2,15 @@ a {
     text-decoration: none;
 }
 
-h1 {}
+h1 {
+    font-family: "Inter", serif;
+    color: #424242;
+}
 
-h2 {}
+h2 {
+    font-family: "Inter", serif;
+    color: #424242;
+}
 
 h3 {
     font-family: "Inter", serif;
@@ -203,11 +209,11 @@ button {
     padding: 0px 20px 120px;
 }
 
-.ecosystem a {
+.ecosystem .container a {
     color: #387ed1;
 }
 
-.ecosystem a:hover {
+.ecosystem .container a:hover {
     color: #444444;
 }
 
@@ -301,4 +307,8 @@ button {
 
 .press-strip {
     margin-top: 60px;
+}
+
+.press-strip img:hover {
+    opacity: .8;
 }
