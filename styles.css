@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
 h1 {
     font-family: "Inter", serif;
     color: #424242;
@@ -206,7 +210,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 20px 120px;
+    padding: 0px 20px 120px 10px;
 }
 
 .ecosystem .container a {
@@ -254,8 +258,8 @@ button {
 .ecosystem-image {
     height: 620.281px;
     width: 623.328px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 25px;
+    margin-left: 30px;
 }
 
 .ecosystem-col h3 {
@@ -271,6 +275,7 @@ button {
     padding: 0px;
     font-weight: 400;
     color: #666666;
+    -webkit-font-smoothing: antialiased;
 }
 
 .ecosystem .seven-col p {
@@ -287,13 +292,13 @@ button {
     padding-left: 5px;
 }
 
-.container .seven-col .demo-link {
-    margin-left: 24px;
-}
-
 .container .seven-col .fa-arrow-right:hover {
     color: #444444;
     padding-left: 5px;
+}
+
+.container .seven-col .demo-link {
+    margin-left: 24px;
 }
 
 .container .seven-col .demo-link:hover {
@@ -310,3 +315,168 @@ button {
 }
 
 /* Pricing */
+.pricing .container {
+    display: flexbox;
+    flex-direction: column;
+    margin: 0 150px;
+}
+
+.pricing-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    height: 140.59px;
+}
+
+.pricing-col .five {
+    font-family: "Inter", serif;
+    color: #424242;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: auto;
+    height: 677.562px;
+    padding: 0px 20px 120px;
+}
+
+.pricing-col .five h2 {
+    color: #424242;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 0px 20px;
+    font-weight: 500;
+}
+
+.pricing-col .five p {
+    font-family: "Inter", serif;
+    color: #424242;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-weight: 400;
+    font-stretch: normal;
+    text-indent: 0px;
+    vertical-align: baseline;
+    font-stretch: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.pricing-col .five .pricing-link {
+    margin-top: 15px;
+}
+
+.pricing-link a {
+    color: #387ed1;
+}
+
+.pricing-link a .fa-arrow-right {
+    padding-left: 5px;
+}
+
+.pricing-link a .fa-arrow-right:hover {
+    padding-left: 5px;
+}
+
+.pricing-link a:hover {
+    color: #444444;
+}
+
+/* ***** Pricing Seven ***** */
+.pricing .container .pricing-col .seven {
+    display: flex;
+    position: relative;
+    top: 25px;
+    padding: 20px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.pricing .container .pricing-col .seven .pricing-box {
+    display: flex;
+    justify-content: center;
+    min-width: 186.312px;
+    height: 100;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.pricing .container .pricing-col .seven .pricing-box p {
+    position: relative;
+    font-size: 10px;
+    line-height: 16px;
+    top: 30px;
+    left: -68px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.pricing-box:nth-child(1) p {
+    width: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.pricing-box:nth-child(2) p {
+    width: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container .pricing-col .seven .pricing-box:nth-child(3) p {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.pricing-box img {
+    position: relative;
+    left: -48px;
+    width: 120px;
+    height: 88.688px;
+}
+
+.pricing-box:nth-child(3) img {
+    position: relative;
+    left: 0px;
+}
+
+/* 
+
+.pricing .container .pricing-col .seven .pricing-box p {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: -68px;
+    -webkit-font-smoothing: antialiased;
+}
+/* 
+.pricing .container .pricing-col .seven .pricing-box:nth-child(2) {
+    position: relative;
+    box-sizing: content-box;
+    width: auto;
+    top: 30px;
+    left: -68px;
+    -webkit-font-smoothing: antialiased;
+}
+*/
+/* 
+.pricing .container .pricing-col .seven .pricing-box:nth-child(2) p {
+    position: relative;
+    box-sizing: content-box;
+    top: 30px;
+    left: -68px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.pricing .container .pricing-col .seven .pricing-box:nth-child(3) p {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.pricing .container .pricing-col .seven .pricing-box:nth-child(3) img {
+    position: relative;
+    left: 0px;
+} */
