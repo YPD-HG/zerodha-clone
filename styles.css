@@ -242,7 +242,9 @@ button {
 
 .ecosystem-image {
     height: 620.281px;
-    width: 623.328px
+    width: 623.328px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .ecosystem-col h3 {
@@ -275,5 +277,15 @@ button {
 }
 
 .container .seven-col .demo-link {
+    margin-left: 24px;
+}
+
+.container .seven-col .fa-arrow-right:hover {
+    color: #444444;
+    padding-left: 5px;
+}
+
+.container .seven-col .demo-link:hover {
+    color: #444444;
     margin-left: 24px;
 }
