@@ -683,3 +683,28 @@ button {
     color: #387ed1;
     -webkit-font-smoothing: antialiased;
 }
+
+/* Small Print */
+#footer .container .smallprint {
+    margin-top: 40px;
+}
+
+#footer .container .smallprint p {
+    color: #9B9B9B;
+    font-size: 10.4px;
+    line-height: 18.72px;
+    vertical-align: baseline;
+    font-weight: normal;
+}
+
+#footer .container .smallprint a {
+    font-family: "Inter", serif;
+    color: #387ed1;
+    -webkit-font-smoothing: antialiased;
+}
+
+#footer .container .smallprint a:hover {
+    font-family: "Inter", serif;
+    color: #424242;
+    -webkit-font-smoothing: antialiased;
+}
