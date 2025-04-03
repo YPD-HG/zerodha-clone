@@ -44,6 +44,7 @@ p {
     /* 67.484px */
     box-shadow: rgb(238, 238, 238) 0.125rem 0.0625rem 0.125rem 0px;
     /* 2px 1px 2px 0px */
+    background-color: white;
 }
 
 .navbar-links {
